@@ -9,6 +9,7 @@ namespace CabIncoice
             Console.WriteLine("Welcome to Cab Invoice Generator");
             InvoiceGenerator invoiceGenerator = new InvoiceGenerator();
             invoiceGenerator.calculateFare();
+            invoiceGenerator.ShowMultipleRideList();
         }
     }
 }
